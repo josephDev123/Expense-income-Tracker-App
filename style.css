@@ -30,7 +30,7 @@ body{
 
 /* container */
 .container{
-    max-width: 350px;
+    width: 350px;
     margin: 10px auto;
 
 }
@@ -167,4 +167,32 @@ input[type="text"], input[type="number"]{
 .submit_btn:focus{
 
     outline: none;
+}
+
+
+
+/*media query*/
+@media (max-width:350px){
+
+    body{
+        /* margin: 0px;
+        padding: 0px;
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh; */
+      
+        background:url('img/img4.jpg');
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center;
+    
+    }
+
+    .container{
+        max-width: 300px;
+
+    }
 }

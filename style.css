@@ -30,7 +30,7 @@ body{
 
 /* container */
 .container{
-    width: 350px;
+    max-width: 350px;
     margin: 10px auto;
 
 }

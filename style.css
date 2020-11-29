@@ -21,7 +21,7 @@ body{
     align-items: center;
     min-height: 100vh;
     /* background-color: #F7F7F7; */
-    background-image:url('img/img4.jpg');
+    background:url('img/img4.jpg');
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;

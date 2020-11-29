@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+   
+}
+
+:root{
+    --colorGreen: #2ECC71;
+    --colorRed:#C8392B; 
+    --boxShadow: 1px 1px 2px 2px #ccc;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-color: #F7F7F7; */
+    background-image:url('img/img4.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+
+}
+
+/* container */
+.container{
+    width: 350px;
+    margin: 10px auto;
+
+}
+
+/* container end */
+
+/* balance_wrapper */
+.balance_wrapper{
+    padding: 0px;
+    line-height: 0%;
+   padding-bottom: 15px;
+    
+}
+.balance_wrapper h4{
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+/* balance_wrapper end*/
+
+/* income and expense container */
+.inc_exp_wrapper{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: var(--boxShadow);
+    background-color: #FFFFFF;
+    padding: 15px 30px;
+    line-height: 5px;
+    margin-bottom: 40px;
+}
+
+.inc_exp_wrapper div{
+    flex: 1;
+}
+
+.inc_exp_wrapper div:first-of-type{
+  border-right: 1px solid gray;
+    margin-right: 15px;
+}
+
+.plus{
+    color: var(--colorGreen);
+}
+
+.minus{
+    color: var(--colorRed);
+}
+/* income and expense container end*/
+
+p{
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+    font-weight: bolder;
+}
+
+/* list container */
+
+.list{
+    list-style-type: none;
+    padding: 0px;
+ 
+}
+
+.list li{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: var(--boxShadow);
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.delete_btn{
+    cursor: pointer;
+    position: absolute;
+    transform: translate(-32px);
+    background-color: var(--colorRed);
+    border: none;
+    color: white;
+    font-size: 20px;
+    transition: opacity 1s ease; 
+    opacity: 0;
+}
+
+.delete_btn:focus{
+   outline: none;
+}
+
+.list li:hover .delete_btn{
+    opacity: 1;
+}
+
+.rightBorderExp{
+    border-right: 5px solid red;
+}
+
+.rightBorderInc{
+    border-right: 5px solid  #2ECC71;;
+}
+/* list container end*/
+ 
+/* form container  */
+
+label{
+    display: inline-block;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="number"]{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+/* form container  end*/
+
+.submit_btn{
+    font-size: 15px;
+    width: 100%;
+    padding: 10px;
+    background-color: #9C88FF;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+
+.submit_btn:focus{
+
+    outline: none;
+}

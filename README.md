@@ -7,8 +7,11 @@
 3. Display Income and Expenses in the history section as you insert your Income and Expenses through the input field.
 4. show the total of your Income and Expenses  
 ```
-### Website Link:
-[Link](https://exchange-rate123.netlify.app/)
+## Project image preview
+<img src='img\Capture.PNG'>
+
+### Project Link:
+[Go to the project link](https://income-expense123.netlify.app/)
 
 ### Author:
 [Linkedin](https://www.linkedin.com/in/joseph-uzuegbu-2398001a5/)
